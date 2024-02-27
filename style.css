@@ -39,6 +39,14 @@ aside{
     
 }
 
+/*---------
+    MAIN
+-----------*/
+main{
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
 /*----------
     COLORS
 ----------- */
