@@ -1,3 +1,21 @@
+
+/*----------
+    HEADER
+------------*/
+
+header .ms-logo-mobile{
+    max-height: 60px;
+}
+
+.ms-search-custom{
+    border: none;
+    width: 100%;
+}
+
+/*----------
+    ASIDE
+------------*/
+
 aside{
     width: 300px;
     flex-shrink: 0;
@@ -5,7 +23,14 @@ aside{
     
 }
 
+/*----------
+    COLORS
+----------- */
 
-header .ms-logo-mobile{
-    max-height: 100px;
+.ms-bg-grey{
+    background-color: #E5E5E5;
+}
+
+.ms-color-yellow{
+    color: #FF8F00;
 }
