@@ -29,7 +29,7 @@ header .ms-logo-mobile{
     ASIDE
 ------------*/
 
-.ms-wrapper aside{
+aside{
     height: 100%;
     flex-shrink: 0;
     background-image: url(./img/sidebar-bg.png);
@@ -55,6 +55,34 @@ header .ms-logo-mobile{
     RESPONSIVE
 -----------------*/
 
-@media screen and (max-width: 768px){
-
+@media screen and (min-width: 0px){
+    .ms-wrapper aside{
+        min-width: 100px;
+    }
+    
 }
+
+@media screen and (min-width: 576px){
+    
+    
+}
+
+@media screen and (min-width: 768px){
+   
+}
+
+
+@media screen and (min-width: 992px){
+    
+}
+
+@media screen and (min-width: 1200px){
+    
+}
+
+@media screen and (min-width: 1400px){
+    
+    
+    
+}
+
