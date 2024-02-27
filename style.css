@@ -78,6 +78,22 @@ main .ms-canvas-width{
     color: #FF8F00;
 }
 
+.ms-aside-change{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.627);
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.ms-aside-hover:hover .ms-aside-change{
+    opacity: 1;
+}
+
 /*---------------
     RESPONSIVE
 -----------------*/
