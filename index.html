@@ -56,7 +56,7 @@
         <aside class=" col-2 d-flex flex-column text-white align-items-center justify-content-center justify-content-between p-4" >
             <div>
                 <div class="text-center"><i class="fa-solid fa-house"></i> <span class="d-none d-lg-inline-block mx-2"> Home</span></div>
-                <div class="text-center"><i class="fa-solid fa-chart-simple"></i> <span class="d-none d-lg-inline-block mx-2 px-1">Stats</span></div>
+                <div class="text-center my-3"><i class="fa-solid fa-chart-simple"></i> <span class="d-none d-lg-inline-block mx-2 px-1">Stats</span></div>
                 <div class="text-center"><i class="fa-solid fa-signal"></i> <span class="d-none d-lg-inline-block mx-2"> Signal</span></div>
             </div>
             <div class="justify-self-end" >
@@ -65,19 +65,92 @@
         </aside>
         <main class="text-dark" >
             <div class="container-fluid">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti voluptatibus nulla expedita magni asperiores, error maxime sint quae cum iste minus fuga nisi officiis, praesentium sed iure, consectetur possimus doloribus!
-            Sed obcaecati cum explicabo inventore saepe consequuntur, sapiente optio laudantium exercitationem totam iure animi, unde numquam accusantium ipsa tempora sint dolores quo aut sit! Sapiente delectus molestiae molestias similique aliquid!
-            Minus eligendi ipsum quae commodi quibusdam vitae ullam optio. Commodi odio impedit accusamus, earum blanditiis amet. Et inventore est fuga hic at saepe. Ab iusto ut necessitatibus soluta, error reiciendis?
-            Libero aspernatur reiciendis veritatis consequuntur ducimus fuga, minus commodi itaque, corrupti velit in eum temporibus id deleniti nostrum assumenda sint minima similique ipsa, quidem magnam debitis. Assumenda minima earum odit!
-            Cupiditate tempore dolor itaque blanditiis officiis nesciunt doloremque autem, vitae exercitationem ab iste quos, a quod inventore nemo repudiandae placeat rerum tenetur quidem aut ut optio provident quis. Doloribus, error!
-            Provident error temporibus ratione dicta quod exercitationem perspiciatis consectetur autem, velit odio quidem ad ab repudiandae saepe? Similique cupiditate, labore totam ipsam facere eum tempora doloribus doloremque nemo, culpa esse.
-            Tenetur vel dolorum recusandae aut hic? Quasi at mollitia, minus illum repudiandae hic odio totam, atque magnam voluptates suscipit vero eius. Maxime, dolore quas dolor cumque ut earum ad harum.
-            Dolorum saepe ullam, recusandae reprehenderit assumenda, consectetur magni repellat praesentium odio quis reiciendis. Repellendus cupiditate itaque iste unde, dolores officiis, veniam aliquid magnam, neque doloribus libero fuga a corporis nihil?
-            Autem sed odio, ipsa veritatis alias optio iste repellendus unde, cum fugit ratione facilis quaerat provident aliquid recusandae assumenda nulla laborum commodi debitis nisi rem? Voluptates eum repellat cumque consequatur?
-            Molestias deserunt suscipit minima, ea quia ipsa adipisci eum quibusdam ab cupiditate nisi consectetur delectus repellendus ducimus nobis aspernatur magnam nihil, velit, sit iure? Nostrum voluptatibus perferendis culpa nam itaque.
-            Vitae provident omnis fugiat voluptatem magnam culpa pariatur, ullam eveniet laboriosam, nemo odio. Necessitatibus voluptates est saepe. Eos doloremque deleniti unde id dolor totam labore molestias delectus asperiores, quos aperiam!
-            Facere eum inventore nisi provident est ducimus, totam voluptatibus ad molestiae sit ullam aperiam ea nam iusto optio exercitationem molestias dolorem! Possimus eos deleniti rerum, perspiciatis ut cum eveniet fuga.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur sapiente quo impedit corrupti aspernatur, explicabo omnis error expedita, delectus nisi quia quibusdam totam quis mollitia! Molestiae veniam veritatis tempore debitis.
+                <div class="row ms-bg-blue flex-column">
+                    <div class="col">
+                        <span>Nuovo Studente</span>
+                        <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                            Link with href
+                          </a>
+                          <div class=" ms-canvas-width offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                              <div>
+                                <!-- form -->
+                                <form>
+                                    <div class="row">
+                                        <div class="col-6 mb-2">
+                                            <label for="name" class="form-label">Nome</label>
+                                            <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="col-6 mb-2">
+                                            <label for="surname" class="form-label">Cognome</label>
+                                            <input type="text" class="form-control" id="surname">
+                                        </div>
+                                        <div class="col-6 mb-2">
+                                            <label for="conferma-mail" class="form-label">Conferma Mail</label>
+                                            <input type="email" class="form-control" id="conferma-mail" aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="col-6 mb-2">
+                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                        <div class="col-6 mb-2">
+                                            <label for="conferma-mail" class="form-label">Conferma Mail</label>
+                                            <input type="email" class="form-control" id="conferma-mail" aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <label for="conferma-password" class="form-label">Conferma Password</label>
+                                            <input type="password" class="form-control" id="conferma-password">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <label for="address" class="form-label">Indirizzo</label>
+                                            <input type="text" class="form-control" id="address" aria-describedby="emailHelp">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <label for="address" class="form-label">Indirizzo</label>
+                                            <input type="text" class="form-control" id="address" aria-describedby="emailHelp">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <label for="city" class="form-label">Città</label>
+                                            <input type="text" class="form-control" id="city" aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="col-4">
+                                            <label for="country" class="form-label">Paese</label>
+                                            <input type="text" class="form-control" id="country" aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="col-2">
+                                            <label for="postal-code" class="form-label">CAP</label>
+                                            <input type="text" class="form-control" id="postal-code" aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="input-group my-4">
+                                            <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                                          </div>
+                                    </div> 
+                                    <div class="mb-3 form-check">
+                                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                      <label class="form-check-label" for="exampleCheck1">Accetta per proseguire</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Salva</button>
+                                    <button type="reset" class="btn btn-primary">Svuota</button>
+                                  </form>
+                                <!-- /form  -->
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                    <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                </div>
+                
             </div>
             
         </main>

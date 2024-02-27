@@ -47,6 +47,14 @@ main{
     flex-grow: 1;
 }
 
+main .ms-canvas-width{
+    width: 600px!important;
+}
+
+.ms-canvas-custom{
+    
+}
+
 /*----------
     COLORS
 ----------- */
@@ -54,6 +62,11 @@ main{
 .ms-bg-grey{
     background-color: #E5E5E5;
 }
+
+.ms-bg-blue{
+    background-color: #1B72E8;
+}
+    
 
 .ms-color-yellow{
     color: #FF8F00;
