@@ -1,7 +1,20 @@
 
+/*-----------
+    GENERAL
+-------------*/
+.ms-wrapper{
+    height: calc(100vh - 80px);
+}
+
+
+
 /*----------
     HEADER
 ------------*/
+
+header{
+    height: 80px;
+}
 
 header .ms-logo-mobile{
     max-height: 60px;
@@ -16,10 +29,13 @@ header .ms-logo-mobile{
     ASIDE
 ------------*/
 
-aside{
-    width: 300px;
+.ms-wrapper aside{
+    height: 100%;
     flex-shrink: 0;
-    background-color: #000000;
+    background-image: url(./img/sidebar-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #051E34;
     
 }
 
@@ -33,4 +49,12 @@ aside{
 
 .ms-color-yellow{
     color: #FF8F00;
+}
+
+/*---------------
+    RESPONSIVE
+-----------------*/
+
+@media screen and (max-width: 768px){
+
 }
