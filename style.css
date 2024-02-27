@@ -5,6 +5,7 @@ aside{
     
 }
 
-.ms-bckgrnd{
-    background-color: coral;
+
+header .ms-logo-mobile{
+    max-height: 100px;
 }
