@@ -17,7 +17,7 @@ header{
 }
 
 header .ms-logo-mobile{
-    max-height: 60px;
+    max-height: 55px;
 }
 
 .ms-search-custom{
@@ -63,6 +63,10 @@ table .ms-table-btn{
     padding: 8px 12px;
     border-radius: 5px;
     color: grey;
+}
+
+table .ms-table-width{
+    width: 50%;
 }
 
 /*----------
@@ -132,7 +136,7 @@ table .ms-table-logo{
 
 @media screen and (min-width: 0px){
     .ms-wrapper aside{
-        min-width: 100px;
+        max-width: 100px;
     }
     
 }
