@@ -59,8 +59,28 @@ main .ms-canvas-width{
 }
 
 /*----------
+    TABLE
+-----------*/
+
+table .ms-table-logo{
+    max-height: 30px;
+}
+
+.ms-bg-red{
+    background-color: #DC3545;
+}
+
+.ms-bg-green{
+    background-color: #198754;
+}
+
+.ms-bg-yellow{
+    background-color: #FFC107;
+}
+
+/*----------
     COLORS
------------ */
+-----------*/
 
 .ms-bg-grey{
     background-color: #E5E5E5;
@@ -78,6 +98,10 @@ main .ms-canvas-width{
     color: #FF8F00;
 }
 
+/*----------
+    HOVER
+----------- */
+
 .ms-aside-change{
     position: absolute;
     top: 0;
@@ -94,9 +118,6 @@ main .ms-canvas-width{
     opacity: 1;
 }
 
-table .ms-table-logo{
-    max-height: 30px;
-}
 
 /*---------------
     RESPONSIVE
@@ -124,6 +145,7 @@ table .ms-table-logo{
     .ms-wrapper aside{
         max-width: 175px;
     }
+
 }
 
 @media screen and (min-width: 1200px){
