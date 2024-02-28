@@ -137,7 +137,7 @@ table .ms-table-btn{
 
 @media screen and (min-width: 0px){
     .ms-wrapper aside{
-        max-width: 100px;
+        min-width: 100px;
     }
     
 }
