@@ -58,12 +58,6 @@ main .ms-canvas-width{
     border-radius: 8px;
 }
 
-table .ms-table-btn{
-    border: 2px solid grey;
-    padding: 8px 12px;
-    border-radius: 5px;
-    color: grey;
-}
 
 table .ms-table-width{
     width: 50%;
@@ -75,6 +69,13 @@ table .ms-table-width{
 
 table .ms-table-logo{
     max-height: 30px;
+}
+
+table .ms-table-btn{
+    border: 2px solid grey;
+    padding: 2px 6px;
+    border-radius: 5px;
+    color: grey;
 }
 
 .ms-bg-red{
