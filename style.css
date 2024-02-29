@@ -48,7 +48,7 @@ main{
 }
 
 #offcanvasExample{
-    width: 50%;
+    width: 80%;
 }
 
 .ms-btn-custom{
@@ -169,7 +169,11 @@ table .ms-table-btn{
 
     table .ms-table-width{
     width: 35%;
-}
+    }
+
+    #offcanvasExample{
+        width: 50%;
+    }
 
 }
 
