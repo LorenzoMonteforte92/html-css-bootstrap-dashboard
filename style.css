@@ -47,8 +47,8 @@ main{
     flex-grow: 1;
 }
 
-main .ms-canvas-width{
-    width: 60%!important;
+#offcanvasExample{
+    width: 50%;
 }
 
 .ms-btn-custom{
@@ -113,6 +113,10 @@ table .ms-table-btn{
     
 .ms-color-yellow{
     color: #FF8F00;
+}
+
+#basic-addon1{
+    background-color: #E9ECEF;
 }
 
 /*----------
