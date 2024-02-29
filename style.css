@@ -58,11 +58,6 @@ main{
     border-radius: 8px;
 }
 
-
-table .ms-table-width{
-    width: 50%;
-}
-
 /*----------
     TABLE
 -----------*/
@@ -78,22 +73,9 @@ table .ms-table-btn{
     color: grey;
 }
 
-.ms-bg-red{
-    background-color: #DC3545;
+table .ms-table-width{
+    width: 50%;
 }
-
-.ms-bg-green{
-    background-color: #198754;
-}
-
-.ms-bg-yellow{
-    background-color: #FFC107;
-}
-
-/*----------
-    TODO
------------*/
-
 
 /*----------
     COLORS
@@ -118,6 +100,19 @@ table .ms-table-btn{
 #basic-addon1{
     background-color: #E9ECEF;
 }
+
+.ms-bg-red{
+    background-color: #DC3545;
+}
+
+.ms-bg-green{
+    background-color: #198754;
+}
+
+.ms-bg-yellow{
+    background-color: #FFC107;
+}
+
 
 /*----------
     HOVER
